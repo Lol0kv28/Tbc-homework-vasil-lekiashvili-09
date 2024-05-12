@@ -1,0 +1,140 @@
+body{
+height: 1700px;
+}
+
+nav {
+  margin-top: 33px;
+  margin-right: 78px;
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 50px;
+}
+
+a {
+  color: #636060;
+  font-size: 17px;
+  font-family: Helvetica;
+}
+
+.geolab-logo {
+  margin-left: 99px;
+  margin-top: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.white-homes-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 31px;
+  top: -321px;
+}
+
+.inside-text-1 {
+  font-family: Helvetica;
+  font-size: 79px;
+  color: white;
+  z-index: 150;
+}
+
+.inside-text-2 {
+  font-family: Helvetica;
+  font-size: 19px;
+  color: white;
+  z-index: 150;
+}
+
+.white-homes-photo {
+  position: relative;
+  width: 100%;
+  top: 84px;
+}
+
+.first-card {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  width: 235px;
+  height: 193px;
+  font-family: Helvetica;
+  margin-left: 100px;
+  margin-top: 84px;
+}
+
+.card-div {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.card-div > h1 {
+  color: #636060;
+  font-size: 17px;
+}
+
+.card-div > h2 {
+  color: #010101;
+  font-size: 28px;
+}
+
+.first-card > h3 {
+  color: #636060;
+  font-size: 20px;
+}
+
+
+/* This lines only for Cards styles */
+
+
+.third{
+  position: relative;
+  top: -194px;
+  display: flex;
+  justify-content: end;
+  right: 98px;
+}
+
+.special-gap{
+display: flex;
+flex-direction: column;
+gap: 9px;
+}
+
+.mother-card{
+  display: flex;
+  flex-wrap:wrap ;
+  gap: 33px;
+  width: 924px;
+  height: 680px;
+}
+
+.card-1 , .card-2 , .card-3 , .card-4 , .card-5 , .card-6{
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  width: 286px;
+  height: 312px;
+}
+
+.special-gap > h4 {
+  color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+}
+
+.special-gap > h5 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 18px;
+}
